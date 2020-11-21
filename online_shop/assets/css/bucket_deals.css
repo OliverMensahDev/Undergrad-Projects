@@ -1,0 +1,130 @@
+body{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar{
+     font-family: Montserrat, sans-serif;
+     margin-bottom: 0;
+     background: white; /* fallback for old browsers */
+     border: 0;
+     font-size: 11px !important;
+     height: 100px;
+     padding-top: 20px;
+ }
+ .navbar-collapse {
+   background: white; /* fallback for old browsers */
+ }
+ .navbar li a, .navbar .navbar-brand {
+     color: #ff0084 !important;
+ }
+.navbar a:hover{
+	border-bottom: 3px solid black;
+}
+.navbar li:active a{
+  background: white;
+  color: black;
+}
+.dropdown-menu li a {
+     color: #000 !important;
+ }
+ .dropdown-menu li a:hover {
+     background-color: blue !important;
+ }
+
+.fa-lg{
+  padding-top: 50px;
+  color:#ff0084;;
+  font-size:8em;
+}
+.text-lg{
+  padding-top: 50px;
+  color:#ff0084;;
+  font-size:3em;
+}
+
+ .cart-block{
+   background: #ff0084 !important;
+   color: #fff;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+.game{
+  display: relative;
+}
+.game-title{
+  background: #666;
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+}
+.game-price{
+  position: absolute;
+  bottom: 130px;
+  right: 15px;
+  background: #3b7e14;
+  color: #fff;
+  padding: 5px;
+  font-size: 22px;
+}
+.game-add{
+  background: ;
+  margin: 5px auto 20px;
+  width: 100%;
+  text-align: center;
+}
+.details-price{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.details img{
+  width: 100%;
+  height: 100%;
+}
+.qty{
+  width: 40px;
+  color: #666 !important;
+  text-align: center;
+}
+.padding-left{
+ margin-left:100px;
+}
+.panel-heading-green{
+  background: #ff0084 !important;;
+  color:#fff !important;
+}
+.details-margin{
+  padding:0 50px 0 50px;
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+    .hideOnMobile{
+      display: none;
+    }
+.collapsing, .in {background-color: #f7f7f7;}
+.collapsing ul li a, .in ul li a {color: #555!important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
+.padding-top-nav{
+  padding-top:120px;
+}
+.alert{
+  text-align: center;
+}
+.transition {
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+.hoverImage{
+	transition: all .2s ease-in-out;
+}.hoverImage:hover{
+	 transform: scale(1.1);
+}

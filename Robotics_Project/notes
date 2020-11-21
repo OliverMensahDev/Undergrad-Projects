@@ -1,0 +1,18 @@
+A ROS Python node that subscribes to images from the ROS webcam driver and performs image recognition using TensorFlow APIs. The node will print the detected object and its probability.
+
+
+
+
+python imageR.py image:=/cv_camera/image_raw
+
+
+rostopic echo /result
+
+
+rosrun cv_camera cv_camera_node
+
+
+rosrun image_view image_view image:= /cv_camera/image_raw
+
+
+
